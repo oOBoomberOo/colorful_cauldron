@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display: {color: 0}, CustomModelData: 8080001, ucit:{dyeable_cauldron: {water_level: 3, dyes: [], current_color: 0, current_rgb: [0, 0, 0]}, id: \"cauldron\", from: \"boomber:dyeable_cauldron\", author: [\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:leather_chestplate"
+				}
+			]
+		}
+	]
+}

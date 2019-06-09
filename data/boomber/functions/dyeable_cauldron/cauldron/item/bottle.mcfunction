@@ -1,0 +1,1 @@
+execute if entity @s[nbt={OnGround: 1b}] run function boomber:dyeable_cauldron/cauldron/absorb/bottle/absorb

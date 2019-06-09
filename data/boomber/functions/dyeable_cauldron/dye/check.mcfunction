@@ -1,0 +1,16 @@
+execute if entity @s[nbt={Item: {id: "minecraft:red_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:green_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:purple_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:cyan_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:light_gray_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:gray_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:pink_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:lime_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:yellow_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:light_blue_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:magenta_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:orange_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:blue_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:brown_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:black_dye"}}] run tag @s add boomber.dyeable_cauldron.dye
+execute if entity @s[nbt={Item: {id: "minecraft:white_dye"}}] run tag @s add boomber.dyeable_cauldron.dye

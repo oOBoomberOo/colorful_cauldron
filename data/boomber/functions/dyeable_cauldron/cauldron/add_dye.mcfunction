@@ -1,0 +1,16 @@
+execute if entity @s[nbt={Item: {id: "minecraft:red_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/red_dye
+execute if entity @s[nbt={Item: {id: "minecraft:green_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/green_dye
+execute if entity @s[nbt={Item: {id: "minecraft:purple_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/purple_dye
+execute if entity @s[nbt={Item: {id: "minecraft:cyan_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/cyan_dye
+execute if entity @s[nbt={Item: {id: "minecraft:light_gray_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/light_gray_dye
+execute if entity @s[nbt={Item: {id: "minecraft:gray_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/gray_dye
+execute if entity @s[nbt={Item: {id: "minecraft:pink_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/pink_dye
+execute if entity @s[nbt={Item: {id: "minecraft:lime_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/lime_dye
+execute if entity @s[nbt={Item: {id: "minecraft:yellow_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/yellow_dye
+execute if entity @s[nbt={Item: {id: "minecraft:light_blue_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/light_blue_dye
+execute if entity @s[nbt={Item: {id: "minecraft:magenta_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/magenta_dye
+execute if entity @s[nbt={Item: {id: "minecraft:orange_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/orange_dye
+execute if entity @s[nbt={Item: {id: "minecraft:blue_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/blue_dye
+execute if entity @s[nbt={Item: {id: "minecraft:brown_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/brown_dye
+execute if entity @s[nbt={Item: {id: "minecraft:black_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/black_dye
+execute if entity @s[nbt={Item: {id: "minecraft:white_dye"}}] run function boomber:dyeable_cauldron/cauldron/add_dye/white_dye

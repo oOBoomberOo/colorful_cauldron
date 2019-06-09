@@ -1,0 +1,1 @@
+execute if entity @s[nbt={OnGround: 1b}] align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:cauldron unless block ~ ~ ~ minecraft:cauldron[level=0] unless entity @e[type=armor_stand, tag=boomber.dyeable_cauldron.cauldron, distance=..0.3] run function boomber:dyeable_cauldron/dye/init_cauldron
