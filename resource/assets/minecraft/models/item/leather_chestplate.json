@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/leather_chestplate",
+		"layer1": "item/leather_chestplate_overlay"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 8080001}, "model": "boomber:dyeable_cauldron/cauldron_level_1"},
+		{"predicate": {"custom_model_data": 8080002}, "model": "boomber:dyeable_cauldron/cauldron_level_2"},
+		{"predicate": {"custom_model_data": 8080003}, "model": "boomber:dyeable_cauldron/cauldron_level_3"},
+		{"predicate": {"custom_model_data": 8080004}, "model": "boomber:dyeable_cauldron/cauldron_logo"}
+	]
+}
