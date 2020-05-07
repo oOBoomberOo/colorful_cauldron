@@ -4,6 +4,5 @@ execute as @e[type=item, tag=boomber.dyeable_cauldron.bottle, distance=..0.5] at
 
 function boomber:dyeable_cauldron/cauldron/change_color
 function boomber:dyeable_cauldron/cauldron/water_level
-# function boomber:dyeable_cauldron/cauldron/debug
 
-execute if score #bb.dc.water_level bb.variable matches ..-1 run function boomber:dyeable_cauldron/cauldron/remove
+execute if score #water_level bb.cc.var matches ..-1 run function boomber:dyeable_cauldron/cauldron/remove

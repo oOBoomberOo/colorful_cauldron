@@ -1,4 +1,4 @@
-scoreboard players set #bb.dc.max bb.variable 0
-scoreboard players operation #bb.dc.max bb.variable > #bb.dc.red bb.variable
-scoreboard players operation #bb.dc.max bb.variable > #bb.dc.green bb.variable
-scoreboard players operation #bb.dc.max bb.variable > #bb.dc.blue bb.variable
+scoreboard players set #bb.dc.max bb.cc.var 0
+scoreboard players operation #bb.dc.max bb.cc.var > #bb.dc.red bb.cc.var
+scoreboard players operation #bb.dc.max bb.cc.var > #bb.dc.green bb.cc.var
+scoreboard players operation #bb.dc.max bb.cc.var > #bb.dc.blue bb.cc.var

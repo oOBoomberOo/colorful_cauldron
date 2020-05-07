@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Colorful Cauldron v1.0.0",
+		"title": "Colorful Cauldron",
 		"description": "",
 		"icon": {
 			"item": "minecraft:leather_chestplate",
@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "global:boomber",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"

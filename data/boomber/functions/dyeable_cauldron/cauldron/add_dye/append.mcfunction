@@ -1,5 +1,5 @@
 # Push color data of dye into cauldron
-data modify entity @s ArmorItems[-1].tag.ucit.dyeable_cauldron.dyes append from entity @e[type=item, tag=boomber.dyeable_cauldron.dye.appending, limit=1] Item.tag.ucit.dyeable_cauldron
+data modify entity @s ArmorItems[-1].tag.ctc.dyeable_cauldron.dyes append from entity @e[type=item, tag=boomber.dyeable_cauldron.dye.appending, limit=1] Item.tag.ctc.dyeable_cauldron
 
 function boomber:dyeable_cauldron/cauldron/calculate_color
 kill @e[type=item, tag=boomber.dyeable_cauldron.dye.appending]

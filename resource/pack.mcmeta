@@ -1,9 +1,6 @@
 {
 	"pack": {
-		"pack_format": 4,
-		"description": [
-			{"text": "\"Colorful Cauldron\"", "color": "gray"},
-			{"text": " resourcepack", "color": "gray"}
-		]
+		"pack_format": 5,
+		"description": "Colorful Cauldron Resourecepack"
 	}
 }

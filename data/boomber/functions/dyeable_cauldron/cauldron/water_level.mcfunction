@@ -1,7 +1,7 @@
-execute store result score #bb.dc.water_level bb.variable run data get entity @s ArmorItems[-1].tag.ucit.dyeable_cauldron.water_level
-scoreboard players set #bb.dc.water_model bb.variable 8080000
-scoreboard players operation #bb.dc.water_model bb.variable += #bb.dc.water_level bb.variable
-execute store result entity @s ArmorItems[-1].tag.CustomModelData int 1 run scoreboard players get #bb.dc.water_model bb.variable
+execute store result score #water_level bb.cc.var run data get entity @s ArmorItems[-1].tag.ctc.dyeable_cauldron.water_level
+scoreboard players set #water_model bb.cc.var 8080000
+scoreboard players operation #water_model bb.cc.var += #water_level bb.cc.var
+execute store result entity @s ArmorItems[-1].tag.CustomModelData int 1 run scoreboard players get #water_model bb.cc.var
 
-execute if score #bb.dc.water_level bb.variable matches 1..3 unless block ~ ~ ~ minecraft:cauldron[level=0] run scoreboard players set #bb.dc.water_level bb.variable -1
-execute if score #bb.dc.water_level bb.variable matches ..0 run scoreboard players set #bb.dc.water_level bb.variable -1
+execute if score #water_level bb.cc.var matches 1..3 unless block ~ ~ ~ minecraft:cauldron[level=0] run scoreboard players set #water_level bb.cc.var -1
+execute if score #water_level bb.cc.var matches ..0 run scoreboard players set #water_level bb.cc.var -1
