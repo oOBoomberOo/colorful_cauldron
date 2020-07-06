@@ -1,0 +1,1 @@
+execute if data entity @s Item{id: 'minecraft:glass_bottle', Count: 1b} unless data entity @s Item.tag.CustomPotionColor run function boomber:colorful_cauldron/bottle/main

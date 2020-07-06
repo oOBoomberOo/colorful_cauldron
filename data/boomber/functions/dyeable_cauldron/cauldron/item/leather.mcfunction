@@ -1,1 +1,0 @@
-execute if entity @s[nbt={OnGround: 1b}] unless data entity @s Item.tag.display.color run function boomber:dyeable_cauldron/cauldron/absorb/leather/absorb

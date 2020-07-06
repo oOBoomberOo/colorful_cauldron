@@ -5,9 +5,9 @@
 		"layer1": "item/leather_chestplate_overlay"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 8080001}, "model": "boomber:dyeable_cauldron/cauldron_level_1"},
-		{"predicate": {"custom_model_data": 8080002}, "model": "boomber:dyeable_cauldron/cauldron_level_2"},
-		{"predicate": {"custom_model_data": 8080003}, "model": "boomber:dyeable_cauldron/cauldron_level_3"},
-		{"predicate": {"custom_model_data": 8080004}, "model": "boomber:dyeable_cauldron/cauldron_logo"}
+		{"predicate": {"custom_model_data": 8080001}, "model": "boomber:colorful_cauldron/slightly_filled"},
+		{"predicate": {"custom_model_data": 8080002}, "model": "boomber:colorful_cauldron/half_filled"},
+		{"predicate": {"custom_model_data": 8080003}, "model": "boomber:colorful_cauldron/fully_filled"},
+		{"predicate": {"custom_model_data": 8080004}, "model": "boomber:colorful_cauldron/cauldron_logo"}
 	]
 }

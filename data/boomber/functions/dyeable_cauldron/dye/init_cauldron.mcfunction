@@ -1,2 +1,0 @@
-function boomber:dyeable_cauldron/cauldron/init
-function boomber:dyeable_cauldron/cauldron/add_dye

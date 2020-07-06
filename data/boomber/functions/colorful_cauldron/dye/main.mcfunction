@@ -1,0 +1,1 @@
+execute if entity @s[nbt={OnGround: 1b}] align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ cauldron unless block ~ ~ ~ cauldron[level=0] run function boomber:colorful_cauldron/dye/event/mix_color

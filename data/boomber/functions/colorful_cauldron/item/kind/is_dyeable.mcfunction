@@ -1,0 +1,5 @@
+execute if data entity @s Item{id: 'minecraft:leather_helmet', Count: 1b} unless data entity @s Item.tag.display.color run function boomber:colorful_cauldron/dyeable/main
+execute if data entity @s Item{id: 'minecraft:leather_chestplate', Count: 1b} unless data entity @s Item.tag.display.color run function boomber:colorful_cauldron/dyeable/main
+execute if data entity @s Item{id: 'minecraft:leather_leggings', Count: 1b} unless data entity @s Item.tag.display.color run function boomber:colorful_cauldron/dyeable/main
+execute if data entity @s Item{id: 'minecraft:leather_boots', Count: 1b} unless data entity @s Item.tag.display.color run function boomber:colorful_cauldron/dyeable/main
+execute if data entity @s Item{id: 'minecraft:leather_horse_armor', Count: 1b} unless data entity @s Item.tag.display.color run function boomber:colorful_cauldron/dyeable/main

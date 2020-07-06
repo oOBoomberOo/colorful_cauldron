@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[tag=boomber.colorful_cauldron.cauldron, distance=..0.3] run function boomber:colorful_cauldron/dyeable/event/dye_item

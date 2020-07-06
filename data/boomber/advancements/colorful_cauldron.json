@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Colorful Cauldron",
+		"description": "",
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData: 8080004, display: {color: 16071653}}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

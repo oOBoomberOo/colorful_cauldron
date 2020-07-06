@@ -1,0 +1,3 @@
+function boomber:colorful_cauldron/cauldron/method/calculate_color_index/get_color_channel
+function boomber:colorful_cauldron/cauldron/method/calculate_color_index/append_color
+function boomber:colorful_cauldron/cauldron/method/calculate_color_index/max_of_color

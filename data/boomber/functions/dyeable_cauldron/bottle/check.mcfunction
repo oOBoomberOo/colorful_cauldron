@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Item: {id: "minecraft:glass_bottle", Count: 1b}}] run tag @s add boomber.dyeable_cauldron.bottle

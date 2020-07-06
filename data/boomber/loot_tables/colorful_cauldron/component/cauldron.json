@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc: {id: 'cauldron_mask', from: 'boomber:colorful_cauldron', traits: []}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display: {color: 16777215}, CustomModelData: 8080001}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{colors: []}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

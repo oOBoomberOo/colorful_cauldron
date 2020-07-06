@@ -1,0 +1,1 @@
+execute store result entity @s Item.tag.display.color int 1 run scoreboard players get #color bb.cc.var

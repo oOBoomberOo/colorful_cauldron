@@ -1,0 +1,16 @@
+execute if data entity @s Item{id: 'minecraft:red_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:pink_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:magenta_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:light_blue_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:cyan_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:blue_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:green_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:lime_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:yellow_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:orange_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:brown_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:black_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:gray_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:light_gray_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:white_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
+execute if data entity @s Item{id: 'minecraft:purple_dye', Count: 1b} run function boomber:colorful_cauldron/dye/main
