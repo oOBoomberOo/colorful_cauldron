@@ -10,7 +10,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     env:
-      REPO_NAME: ${{ github.event.repository.repo }}
+      REPO_NAME: ${{ github.event.repository.name }}
       VERSION: ${{ github.ref }}
     steps:
       - name: Checkout
@@ -20,15 +20,13 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'datapack.zip'
-          path: '.'
-          exclusions: '.gitignore resource .git*'
+          exclusions: 'resource/* *.git*'
         
       - name: Archive Resourcepack
         uses: thedoctor0/zip-release@master
         with:
           filename: 'resourcepack.zip'
-          path: 'resource/'
-          exclusions: '.gitignore resource .git*'
+          directory: 'resource/'
         
       - name: Create Release
         id: create_release
@@ -36,8 +34,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $VERSION
-          release_name: Release $VERSION
+          tag_name: ${{ env.VERSION }}
+          release_name: Release ${{ env.VERSION }}
           draft: false
           prerelease: false
 
@@ -48,7 +46,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: './datapack.zip'
-          asset_name: '$REPO_NAME_datapack-$VERSION.zip'
+          asset_name: ${{ env.REPO_NAME }}_datapack.zip
           asset_content_type: application/zip
         
       - name: Upload Resourcepack
@@ -58,5 +56,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: './resourcepack.zip'
-          asset_name: '$REPO_NAME_resourcepack-$VERSION.zip'
+          asset_name: ${{ env.REPO_NAME }}_resourcepack.zip
           asset_content_type: application/zip
