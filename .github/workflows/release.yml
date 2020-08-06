@@ -20,7 +20,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'datapack.zip'
-          exclusions: 'resource/* *.git*'
+          exclusions: 'resource/** *.git*'
         
       - name: Archive Resourcepack
         uses: thedoctor0/zip-release@master
@@ -55,6 +55,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: './resourcepack.zip'
+          asset_path: './resource/resourcepack.zip'
           asset_name: ${{ env.REPO_NAME }}_resourcepack.zip
           asset_content_type: application/zip
