@@ -13,20 +13,19 @@ jobs:
       REPO_NAME: ${{ github.event.repository.name }}
       VERSION: ${{ github.ref }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Archive Datapack
         uses: thedoctor0/zip-release@master
         with:
           filename: 'datapack.zip'
-          exclusions: 'resource/** *.git*'
+          exclusions: '*.git* /*resource/* .editorconfig'
         
       - name: Archive Resourcepack
         uses: thedoctor0/zip-release@master
         with:
-          filename: 'resourcepack.zip'
-          directory: 'resource/'
+          filename: resourcepack.zip
+          directory: resource/
         
       - name: Create Release
         id: create_release
