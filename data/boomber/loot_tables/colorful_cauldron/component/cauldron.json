@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ctc: {id: 'cauldron_mask', from: 'boomber:colorful_cauldron', traits: []}}"
+							"tag": "{ctc: {id: 'cauldron_mask', from: 'boomber:colorful_cauldron', traits: {}}}"
 						},
 						{
 							"function": "minecraft:set_nbt",
