@@ -1,43 +1,6 @@
 {
 	"pack": {
 		"pack_format": 7,
-		"description": [
-			{
-				"text": "C",
-				"color": "#f03737"
-			},
-			{
-				"text": "o",
-				"color": "#f07837"
-			},
-			{
-				"text": "l",
-				"color": "#f0c837"
-			},
-			{
-				"text": "o",
-				"color": "#a3f037"
-			},
-			{
-				"text": "r",
-				"color": "#3df037"
-			},
-			{
-				"text": "f",
-				"color": "#37f0dd"
-			},
-			{
-				"text": "u",
-				"color": "#377ef0"
-			},
-			{
-				"text": "l",
-				"color": "#5937f0"
-			},
-			" ",
-			{
-				"text": "Cauldron Datapack"
-			}
-		]
+		"description": "Colorful Cauldron Datapack"
 	}
 }
